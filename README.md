@@ -1,14 +1,21 @@
 # ServiceNow UI Policy Project
 
-Project: Enforcing Mandatory Fields Using UI Policies
+## Project Title
+Enforcing Mandatory Fields Using UI Policies
 
-Description:
-This project demonstrates how to enforce mandatory fields using UI Policies in ServiceNow.
+## Platform
+ServiceNow
 
-Condition:
+## Description
+This project demonstrates how to enforce mandatory fields using UI Policies in ServiceNow. 
 When the Incident State changes to "In Progress", the Priority field becomes mandatory.
 
-Tools Used:
-ServiceNow Platform
-UI Policies
-Update Sets
+## Steps Performed
+1. Created a new Update Set.
+2. Created a UI Policy for the Incident table.
+3. Set condition: State is In Progress.
+4. Added UI Policy Action to make Priority field mandatory.
+5. Tested the policy in the Incident module.
+
+## Result
+When the Incident State is changed to "In Progress", the Priority field becomes mandatory.
